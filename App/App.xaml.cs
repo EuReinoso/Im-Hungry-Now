@@ -1,4 +1,4 @@
-﻿namespace Im_Hungry_Now
+﻿namespace ImHungryNow
 {
     public partial class App : Application
     {

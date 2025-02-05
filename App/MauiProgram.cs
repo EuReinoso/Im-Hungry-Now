@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace Im_Hungry_Now
+namespace ImHungryNow
 {
     public static class MauiProgram
     {

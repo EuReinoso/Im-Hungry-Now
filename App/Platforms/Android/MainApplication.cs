@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Im_Hungry_Now
+namespace ImHungryNow
 {
     [Application]
     public class MainApplication : MauiApplication

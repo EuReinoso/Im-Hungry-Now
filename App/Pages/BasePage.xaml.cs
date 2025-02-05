@@ -1,10 +1,10 @@
-﻿namespace Im_Hungry_Now
+﻿namespace ImHungryNow
 {
-    public partial class MainPage : ContentPage
+    public partial class BasePage : ContentPage
     {
         int count = 0;
 
-        public MainPage()
+        public BasePage()
         {
             InitializeComponent();
         }

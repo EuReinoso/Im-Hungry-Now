@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace Im_Hungry_Now
+namespace ImHungryNow
 {
     internal class Program : MauiApplication
     {

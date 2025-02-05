@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Im_Hungry_Now
+namespace ImHungryNow
 {
     public class Program
     {

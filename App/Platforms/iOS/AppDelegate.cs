@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Im_Hungry_Now
+namespace ImHungryNow
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate
