@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImHungryNow.Views.RestaurantMenuView"
+             Title="Restaurant Menu">
+    <Grid BackgroundColor="White">
+        <CollectionView ItemsSource="{Binding products}"
+                        Margin="10"
+                        ItemsLayout="VerticalGrid, 2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="#ccc" CornerRadius="20" Padding="10" Margin="5" HasShadow="True">
+                        <VerticalStackLayout Spacing="5">
+                            <Image Source="{Binding image}" HeightRequest="100" Aspect="AspectFill" />
+                            <Label Text="{Binding name}" FontAttributes="Bold" FontSize="16" LineBreakMode="TailTruncation"/>
+                            <Label Text="{Binding description}" FontSize="13" TextColor="Gray" LineBreakMode="WordWrap"/>
+                            <Label Text="{Binding price, StringFormat='Preço: {0:C}'}" FontAttributes="Bold" TextColor="#2e7d32" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

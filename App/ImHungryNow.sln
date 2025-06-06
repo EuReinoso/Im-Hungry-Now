@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImHungryNow", "ImHungryNow.csproj", "{80B2FF27-604F-4314-97B4-EFDFA782D2D3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Models\Models.csproj", "{664B2EF9-0BB3-4EE5-B776-2E3F8C90A695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "..\API\API.csproj", "{F1C9FE50-A153-4480-8773-7652A86E7688}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{80B2FF27-604F-4314-97B4-EFDFA782D2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B2FF27-604F-4314-97B4-EFDFA782D2D3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80B2FF27-604F-4314-97B4-EFDFA782D2D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{664B2EF9-0BB3-4EE5-B776-2E3F8C90A695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664B2EF9-0BB3-4EE5-B776-2E3F8C90A695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664B2EF9-0BB3-4EE5-B776-2E3F8C90A695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664B2EF9-0BB3-4EE5-B776-2E3F8C90A695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C9FE50-A153-4480-8773-7652A86E7688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C9FE50-A153-4480-8773-7652A86E7688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C9FE50-A153-4480-8773-7652A86E7688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C9FE50-A153-4480-8773-7652A86E7688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
